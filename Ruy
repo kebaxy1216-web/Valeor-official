@@ -1,3 +1,6 @@
+nav a:hover {
+  color: #c9a24d; /* Altın rengi */
+}
 nav {
   display: flex;
   justify-content: center;
