@@ -4,22 +4,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Valéor | Ana Sayfa</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- CSS -->
+  <style>
+    /* Genel Stil */
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: #0b0b0d;
+      color: #f4f1ec;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 10px 0;
+      color: #f4f1ec;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    /* NAV STİLİ */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0;
+      background: linear-gradient(90deg, #0b0b0d, #1a1a3c);
+      flex-wrap: wrap; /* Mobilde taşmayı önler */
+    }
+
+    nav a {
+      color: #f4f1ec;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #c9a24d; /* Altın hover efekti */
+    }
+
+    /* MAIN BÖLÜM */
+    main {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<header>
-  <nav>
-    <a href="index.html">Ev</a>
-    <a href="about.html">Hakkında</a>
-    <a href="products.html">Ürünler</a>
-  </nav>
-</header>
+  <!-- HEADER + NAV -->
+  <header>
+    <nav>
+      <a href="index.html">Ev</a>
+      <a href="about.html">Hakkımızda</a>
+      <a href="products.html">Ürünler</a>
+    </nav>
+    <h1>VALÉOR</h1>
+    <p>Zamansız zarafet · Sessiz lüks</p>
+  </header>
 
-<main>
-  <h1>VALÉOR</h1>
-  <p>Zamansız zarafet · Sessiz lüks</p>
-</main>
+  <!-- ANA İÇERİK -->
+  <main>
+    <h2>Hoş Geldiniz</h2>
+    <p>Valéor, lüks ve premium tasarımlarıyla fark yaratır.</p>
+    <p>Ürünlerimizi keşfetmek için Ürünler sayfasına göz atabilirsiniz.</p>
+  </main>
 
 </body>
 </html>
