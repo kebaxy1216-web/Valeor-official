@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valéor | Quiet Luxury</title>
+  <meta name="description" content="Valéor — Timeless elegance & quiet luxury. Limited edition fashion.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+  </nav>
+  <h1>VALÉOR</h1>
+  <p>Timeless elegance · Quiet luxury</p>
+</header>
+<section>
+  <div class="divider"></div>
+  <p>Valéor represents a refined approach to modern luxury. Designed beyond trends, crafted for permanence.</p>
+</section>
+<footer>
+  © Valéor — All rights reserved
+</footer>
+</body>
+</html>
