@@ -1,6 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- NAV MENÜSÜ -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="products.html">Products</a>
+</nav>
+
+<!-- STİL (style.css dosyasına ekle) -->
+<style>
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;       /* Linkler arası boşluk */
+  padding: 20px 0;
+  background: linear-gradient(90deg, #0b0b0d, #1a1a3c); /* Siyah-lacivert degrade */
+}
+
+nav a {
+  color: #f4f1ec;      /* Açık renk link */
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c9a24d;      /* Altın rengi hover efekti */
+}
+</style>
   nav {
   display: flex;
   justify-content: center;
