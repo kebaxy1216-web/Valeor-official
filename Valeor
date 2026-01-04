@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valéor | About</title>
+  <meta name="description" content="Learn about Valéor — a modern luxury brand defined by elegance and timeless design.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+  </nav>
+  <h1>About Valéor</h1>
+</header>
+<section>
+  <p>Valéor is dedicated to crafting timeless pieces that reflect quiet luxury and sophistication. Our designs are minimalist yet elegant, aimed at those who appreciate true craftsmanship.</p>
+</section>
+<footer>
+  © Valéor — All rights reserved
+</footer>
+</body>
+</html>
