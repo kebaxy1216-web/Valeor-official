@@ -1,4 +1,158 @@
-<title>Valéor | Ürünler</title><main>
-  <h2>Ürünlerimiz</h2>
-  <p>Valéor’un şık, kaliteli ve premium ürün koleksiyonunu keşfedin.</p>
-</main>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valéor | Ürünler</title>
+
+  <!-- CSS -->
+  <style>
+    /* Genel Stil */
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: #0b0b0d;
+      color: #f4f1ec;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 10px 0;
+      color: #f4f1ec;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    /* NAV STİLİ */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 0;
+      background: linear-gradient(90deg, #0b0b0d, #1a1a3c);
+      flex-wrap: wrap; /* Mobilde taşmayı önler */
+    }
+
+    nav a {
+      color: #f4f1ec;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #c9a24d; /* Altın hover efekti */
+    }
+
+    /* MAIN BÖLÜM */
+    main {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    main h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .product {
+      background: #1a1a3c;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product h3 {
+      margin-top: 0;
+      color: #f4f1ec;
+    }
+
+    .product p {
+      font-size: 16px;
+      color: #f4f1ec;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+      h1 {
+        font-size: 36px;
+      }
+      main h2 {
+        font-size: 28px;
+      }
+      .product {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER + NAV -->
+  <header>
+    <nav>
+      <a href="index.html">Ev</a>
+      <a href="about.html">Hakkımızda</a>
+      <a href="products.html">Ürünler</a>
+    </nav>
+    <h1>VALÉOR</h1>
+    <p>Zamansız zarafet · Sessiz lüks</p>
+  </header>
+
+  <!-- ANA İÇERİK -->
+  <main>
+    <h2>Ürünlerimiz</h2>
+    <div class="products">
+      
+      <div class="product">
+        <h3>Ürün 1</h3>
+        <p>Premium kalite tasarım ve şıklık.</p>
+      </div>
+
+      <div class="product">
+        <h3>Ürün 2</h3>
+        <p>Zamansız zarafetiyle fark yaratan tasarım.</p>
+      </div>
+
+      <div class="product">
+        <h3>Ürün 3</h3>
+        <p>Detaylara önem veren lüks koleksiyon.</p>
+      </div>
+
+      <div class="product">
+        <h3>Ürün 4</h3>
+        <p>Estetik ve şıklığı bir araya getiren ürün.</p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
